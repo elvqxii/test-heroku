@@ -30,5 +30,5 @@ client.on("guildMemberRemove", (member) => {
   if (newUsers[guild.id].has(member.id)) newUsers.delete(member.id);
 });
 
-client.login("NzYxMjU4NjQwMTk5NjQ3Mjgy.X3X_Ww.v5k1moD0HXAhwyKGEpFX33UYZ5M");
+client.login("TOKEN");
 
